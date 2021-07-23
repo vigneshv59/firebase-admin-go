@@ -28,7 +28,7 @@ import (
 )
 
 const userAgentFormat = "Firebase/HTTP/%s/%s/AdminGo"
-const invalidChars = "[].#$"
+const invalidChars = "[]#$"
 const authVarOverride = "auth_variable_override"
 
 // Client is the interface for the Firebase Realtime Database service.
